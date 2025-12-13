@@ -93,16 +93,7 @@ Eye-Disease-Analysis/
 
    * Detected problem
    * Precautions
-   * Recommended health diet
-
----
-
-## 🥕 Sample Diet Recommendations
-
-* Carrots and leafy green vegetables
-* Vitamin A, C, and E rich foods
-* Omega-3 fatty acids (fish, nuts)
-* Adequate hydration
+   * Recommended health 
 
 ---
 
