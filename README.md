@@ -6,7 +6,6 @@ This project is a **health-domain application** focused on analyzing **eye disea
 
 The goal of this project is to assist users in early detection of eye diseases and promote preventive eye care through technology.
 
----
 
 ## 🎯 Objectives
 
@@ -16,7 +15,6 @@ The goal of this project is to assist users in early detection of eye diseases a
 * Suggest **healthy diet recommendations** for better eye health
 * Support early diagnosis and awareness
 
----
 
 ## 🧠 Key Features
 
@@ -27,7 +25,6 @@ The goal of this project is to assist users in early detection of eye diseases a
 * 🥗 Health diet suggestions for eye care
 * 📱 User-friendly application interface
 
----
 
 ## 🛠️ Technologies Used (Example)
 
@@ -39,7 +36,6 @@ The goal of this project is to assist users in early detection of eye diseases a
 * Database: MySQL / MongoDB
 * Tools: VS Code, Git, GitHub
 
----
 
 ## 📂 Project Structure (Sample)
 
@@ -55,8 +51,6 @@ Eye-Disease-Analysis/
 │── requirements.txt
 │── README.md
 ```
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -81,7 +75,6 @@ Eye-Disease-Analysis/
    python app.py
    ```
 
----
 
 ## 🚀 How It Works
 
@@ -95,7 +88,6 @@ Eye-Disease-Analysis/
    * Precautions
    * Recommended health 
 
----
 
 ## 🔮 Future Enhancements
 
