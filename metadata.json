@@ -1,0 +1,7 @@
+{
+  "name": "Be Healthy with AI",
+  "description": "Advanced AI-powered iris scanner for body neural network analysis and health insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

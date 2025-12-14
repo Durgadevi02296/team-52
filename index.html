@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be Healthy with AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cyber: {
+                900: '#0a0f14',
+                800: '#111b24',
+                700: '#1b2d3a',
+                500: '#00f2ea',
+                400: '#34f5ef',
+              },
+              medical: {
+                red: '#ff4d4d',
+                green: '#00cc66'
+              }
+            },
+            animation: {
+              'scan-line': 'scan 2s linear infinite',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              scan: {
+                '0%': { transform: 'translateY(0)' },
+                '100%': { transform: 'translateY(100%)' },
+              }
+            }
+          },
+        },
+      };
+    </script>
+    <style>
+        /* Custom scrollbar for webkit */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #111b24; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1b2d3a; 
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00f2ea; 
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-black text-gray-100 antialiased overflow-hidden">
+    <div id="root" class="h-screen w-screen relative overflow-hidden flex flex-col items-center justify-center bg-cyber-900"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
